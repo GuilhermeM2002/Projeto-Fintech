@@ -1,0 +1,136 @@
+header{
+    background-image: linear-gradient(#26a69a, #64d8cb);
+    border-radius: 0px 0px 80px;
+    box-shadow: 2px 2px 15px;
+}
+.h2{
+    font-size: 15px;
+}
+.conteudo-principal{
+    width: 100%;
+}
+.bi-person-circle{
+    font-size: 30px;
+    color: #00695c;
+}
+.mes-corrente{
+    color: #00766c;
+    text-decoration: none;
+}
+footer{
+    background-color: #26a69a;
+    color: white;
+}
+.bi-facebook, .bi-instagram, .bi-twitter, .bi-youtube{
+    color: white;
+    margin: 2%;
+    font-size: 30px;
+}
+.contato:hover{
+    color: #00695c;
+}
+.conteudo-principal{
+    font-size: 20px;
+    text-align: center;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #64d8cb;
+}
+.valor-investimento{
+    color: #00ff00;
+}
+.fundos{
+    color: #00766c;
+}
+.editar{
+    font-size: 18px;
+    color: #00695c;
+}
+.local-carrossel{
+    color: white;
+    background-color: #64d8cb;
+}
+.titulo{
+    color: white;
+    font-size: 25px;
+    text-decoration: none; 
+}
+.titulo:hover{
+    color: #64d8cb;
+}
+.bi-arrow-right{
+    color: black;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.lucros{
+    width: 50%;
+}
+@media (min-width: 576px){
+    header{
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    p, .mes-corrente{
+        font-size: 20px;
+    }
+    .texto{
+        font-size: 15px;
+    }
+    .titulo{
+        color: white;
+    }
+    .bi-list{
+        font-size: 40px;
+        color: white;
+    } 
+   
+}
+@media (min-width: 768px) {
+    .h2{
+        font-size: 20px;
+    }
+    .op-img{
+        width: 16%;
+    }
+    .local_banner{
+        color: white;
+        background-color: #26a69a;
+    }
+    .bi-question-circle-fill{
+    font-size: 2rem;
+    color: white;
+    }
+    .lucros{
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    header{
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        z-index: 2;
+    }
+    
+    .nav-link{
+        color: white;
+        font-size: 20px;
+    }
+    .nav-link:hover{
+        color: #00766c;
+    }
+    .h2{
+        font-size: 18px;
+    }
+    .h1{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    
+}
